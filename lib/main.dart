@@ -10,11 +10,10 @@ void main(List<String> args) {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'),
+            image: AssetImage('lib/images/zeggy.png'),
           ),
         ),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.purple[200],
       ),
     ),
   );
